@@ -15,7 +15,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 @Component
 public class JwtUtil {
 
-    private static final String SECRET = "/qMR1L+vr0SGVZBhUT1mLfIuROYzwv5AdAozxDc89g8="; // 32+ chars for 256-bit
+    private static final String SECRET = "sceret_key"; // 32+ chars for 256-bit
     private final SecretKey secretKey = Keys.hmacShaKeyFor(SECRET.getBytes());
 
 
